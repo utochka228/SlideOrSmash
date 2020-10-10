@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7780554199056320493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7780554199056320495}
+  - component: {fileID: 7780554199056320492}
+  m_Layer: 0
+  m_Name: DoNotFall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7780554199056320495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7780554199056320493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.233975, y: 13.705082, z: 10.970569}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7780554199056320492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7780554199056320493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffcb1bda81afffa4597c5351c5a083b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameTypeName: DoNotFall
+  moneyTrophy: 14
+  expirience: 6
+  playerWon: 0
+  mapSize: 3
+  timeToMatchEnd: 36
+  imageCount: 3
+  images:
+  - {fileID: 21300000, guid: a64fea9eaaa66884fa22c2202a22671d, type: 3}
+  - {fileID: 21300000, guid: 7065b9bc866b96a43aea573d70fcb747, type: 3}
+  - {fileID: 21300000, guid: 5aa03aa9271004346a205db38371ed14, type: 3}
